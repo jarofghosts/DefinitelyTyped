@@ -15,6 +15,7 @@ export default class DateRangePicker extends React.Component<Props> { }
 export as namespace ReactDateRangePicker;
 
 export interface Props<T = DateRangePicker> extends React.Props<T> {
+    locale?: string;
     bemBlock?: string;
     bemNamespace?: string;
     dateStates?: DateState[];
